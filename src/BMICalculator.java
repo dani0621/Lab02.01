@@ -54,7 +54,6 @@ public class BMICalculator {
                 }
 
             }
-            // convert here, indexOf, substring, integer.parse Int
             catch (Exception e) {
                 System.out.println("Error, please re-enter data.");
                 in = new Scanner(System.in); // flushes the return key  from the Scanner
@@ -62,7 +61,7 @@ public class BMICalculator {
             }
 
         }
-        System.out.println("Your BMI, as expressed as weight(kg)/height(m)^2: " + df.format(computeBMI(inches, pounds)) + "kg/m^2");
+        System.out.println("Your BMI, as expressed as weight(kg)/height(m)^2: " + df.format(computeBMI(inches, pounds)) + " kg/m^2");
     }
 
 }
